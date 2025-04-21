@@ -107,9 +107,32 @@ Two classifiers were trained to predict **whether the customer has a balance abo
 - seaborn
 - scikit-learn
 
-## 📂 File Structure
+  
+---
 
-- `Reg_problem.py`: Main code file for data preparation, modeling, and evaluation
+## 🧪 How to Run
+
+🐍 Make sure you have **Python 3.7 or newer** installed, then install all required packages:
+
+1. **Clone this repository**
+
+   Open your terminal and run:
+
+   ```bash
+   git clone https://github.com/seven-es/Customer-Churn-Prediction.git
+   cd Data-Wrangling-Project
+
+2. Install dependencies
+
+   ```bash
+   pip install -r requirements.txt
+3. Install dependencies
+
+   Place the dataset file  in the root directory of the project
+
+4. Run the script
+   ```bash
+    Reg_problem.py
 
 
 
