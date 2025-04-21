@@ -1,6 +1,6 @@
 # 💼 Customer Balance Threshold Classifier
 
-This project builds machine learning models to **predict whether a customer's balance is above a certain threshold**, based on their demographic and account features.
+This project builds machine learning models to **predict whether a customer's will chrun based on a certain threshold**
 
 > ⚠️ **Important:** This project does **not** directly predict customer churn. Instead, it identifies whether a customer has a **high balance** (above a threshold) — which can later be used as a proxy to assess churn risk or drive targeted retention strategies.
 
