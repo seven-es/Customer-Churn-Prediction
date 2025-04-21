@@ -112,8 +112,6 @@ Two classifiers were trained to predict **whether the customer has a balance abo
 
 ## 🧪 How to Run
 
-🐍 Make sure you have **Python 3.7 or newer** installed, then install all required packages:
-
 1. **Clone this repository**
 
    Open your terminal and run:
