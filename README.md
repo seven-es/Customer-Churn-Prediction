@@ -4,7 +4,6 @@ This project builds machine learning models to **predict whether a customer's ba
 
 > ⚠️ **Important:** This project does **not** directly predict customer churn. Instead, it identifies whether a customer has a **high balance** (above a threshold) — which can later be used as a proxy to assess churn risk or drive targeted retention strategies.
 
-threshold is when a customer has Salary  "73057.376" or higher
 ---
 
 ## 🎯 Objective
@@ -37,7 +36,10 @@ A preprocessing pipeline was applied to clean, transform, and prepare the data f
 - Converted binary columns (`HasCrCard`, `IsActiveMember`, `Exited`) into "Yes/No" and then into numeric
 - Removed outliers using the IQR method
 - Encoded categorical variables (`Geography`, `Gender`)
+- threshold is when a customer has Salary  "73057.376" or higher
 - Binarized the `Balance` column:
+
+
   
   ```python
   df["Balance"] = df["Balance"].apply(lambda x: 1 if x >= 73057.376 else 0)
